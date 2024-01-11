@@ -52,6 +52,17 @@ img {
 footer {
   margin-top: 5%;
   color: #72e1b7;
+  font-size: 1.5rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+@media (max-width: 800px){
+  .container{
+    width: 95%;
+  }
+
+  h1{
+    font-size: 7.5rem;
+  }
 }
