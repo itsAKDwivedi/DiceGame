@@ -29,10 +29,14 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-shadow: 5px 0 #000000;
   color: #72e1b7;
   font-family: sans-serif;
+}
+
+.crown {
+  display: none;
 }
 
 img {
@@ -52,17 +56,16 @@ img {
 footer {
   margin-top: 5%;
   color: #72e1b7;
-  font-size: 1.5rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 @media (max-width: 800px){
   .container{
-    width: 95%;
+    width: 90%;
   }
 
   h1{
-    font-size: 7.5rem;
+    font-size: 3rem;
   }
 }
