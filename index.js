@@ -19,47 +19,11 @@ function play(){
     let play1 = Math.floor(Math.random()*6) + 1;
     let play2 = Math.floor(Math.random()*6) + 1;
 
-    if(play1 === 1) {   
-        img1.setAttribute("src", "./images/1.png");
-    }
-    if(play2 === 1) {   
-        img2.setAttribute("src", "./images/1.png");
-    }
-    
-    if(play1 === 2) {   
-        img1.setAttribute("src", "./images/2.png");
-    }
-    if(play2 === 2) {   
-        img2.setAttribute("src", "./images/2.png");
-    }
-    
-    if(play1 === 3) {   
-        img1.setAttribute("src", "./images/3.png");
-    }
-    if(play2 === 3) {   
-        img2.setAttribute("src", "./images/3.png");
-    }
-    
-    if(play1 === 4) {   
-        img1.setAttribute("src", "./images/4.png");
-    }
-    if(play2 === 4) {   
-        img2.setAttribute("src", "./images/4.png");
-    }
-    
-    if(play1 === 5) {   
-        img1.setAttribute("src", "./images/5.png");
-    }
-    if(play2 === 5) {   
-        img2.setAttribute("src", "./images/5.png");
-    }
-    
-    if(play1 === 6) {   
-        img1.setAttribute("src", "./images/6.png");
-    }
-    if(play2 === 6) {   
-        img2.setAttribute("src", "./images/6.png");
-    }
+    let result1 = "./images/"+play1+".png";
+    let result2 = "./images/"+play2+".png";
+
+    img1.setAttribute("src", result1);
+    img2.setAttribute("src", result2);
 
     finalScore1+=play1;
     finalScore2+=play2;
