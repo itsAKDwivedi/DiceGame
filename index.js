@@ -35,11 +35,17 @@ function updateScore(){
     document.querySelector("#score2").innerText = finalScore2;
     if(finalScore1>finalScore2){
         document.querySelector("h1").innerText = "Player 1 wins";
+        document.querySelector(".c1").style.display = "inline";
+        document.querySelector(".c2").style.display = "none";
     }
     else if(finalScore1<finalScore2){
         document.querySelector("h1").innerText = "Player 2 wins";
+        document.querySelector(".c1").style.display = "none";
+        document.querySelector(".c2").style.display = "inline";
     }
     else{
         document.querySelector("h1").innerText = "Game Tie";
+        document.querySelector(".c1").style.display = "none";
+        document.querySelector(".c2").style.display = "none";
     }
 }
